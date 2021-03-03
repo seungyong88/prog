@@ -27,13 +27,13 @@ body {
 
 .Node {
   width: 140px;
-  height: 150px;
+  min-height: 150px;
   padding: 12px;
   margin: 8px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  word-break: keep-all;
 }
 
 .Breadcrumb {
