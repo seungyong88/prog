@@ -15,6 +15,11 @@ const request = async url => {
 const api = {
     // git config --global user.name "홍길동"
    // git config --global user.email "support@webisfree.com"
+
+//    git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/seungyong88/prog.git
+// git push -u origin main
 //   fetchCats: async keyword => {
 //     const breeds = (await request(`${API_ENDPOINT}/breeds/search?q=${keyword}`)).map(breed => breed.id);
 //     const requests = breeds.map(breed => request(`${API_ENDPOINT}/images/search?limit=20&breed_ids=${breed}`));
